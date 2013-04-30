@@ -1,0 +1,7 @@
+# Currently supports only PostgreSQL
+db:
+  host: ec2-54-235-242-31.compute-1.amazonaws.com
+  dbname: dam54718vnrsp1
+  port: 5432
+  user: yvbrfkwpghldhi
+  password: _9yoGL7R8SrwN8rvGySBh7xS6F
