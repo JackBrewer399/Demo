@@ -1,4 +1,4 @@
-require 'sinatra'
+#require 'sinatra'
 require 'rubygems'
 require 'ruby'
 require 'pg'
