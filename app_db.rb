@@ -34,13 +34,13 @@ end
 def db_getQuestion(lmsID)
   result = $dbconn.query("SELECT APP_ID, QUESTION, ANSWER FROM QUIZ_TABLE WHERE APP_ID = '#{appID}'")
   
-  if result.num_tuples.zero?
+  #if result.num_tuples.zero?
     # No results
-    return nil
-  else
+  #  return nil
+  #else
     # Return a hash of the result
     return result[0]
-  end
+  #end
 end
 
 #def add_rows 
