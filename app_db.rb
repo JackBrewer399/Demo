@@ -2,6 +2,13 @@ require 'sinatra'
 require 'pg'
 require 'yaml'
 
+# Enable session storing in cookies
+use Rack::Session::Cookie, :key => 'rack.session',
+                               :expire_after => 86400
+# Disable Rack frame embedding protection
+set :protection, :except => :frame_options
+
+
 # Load database and evernote API info
 conninfo = YAML.load_file('settings.yml')
 
