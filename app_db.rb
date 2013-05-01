@@ -48,7 +48,7 @@ def db_getQuestion(lmsID)
   else
     # Return a hash of the result
     return result[0]
-  #end
+  end
 end
 
 #def add_rows 
