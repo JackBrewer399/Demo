@@ -1,6 +1,6 @@
-#require 'sinatra'
-require 'rubygems'
-require 'ruby'
+require 'sinatra'
+#require 'rubygems'
+#require 'ruby'
 require 'pg'
 require 'yaml'
 
