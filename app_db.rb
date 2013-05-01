@@ -1,4 +1,4 @@
-require 'pg'
+#require 'pg'
 require 'yaml'
 
 # Load database and evernote API info
