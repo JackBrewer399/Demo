@@ -1,3 +1,3 @@
 $stdout.sync = true
 
-run Sinatra::Application
+#run Sinatra::Application
