@@ -1,6 +1,7 @@
 require 'sinatra'
 #require 'rubygems'
 #require 'ruby'
+require './app_db'
 require 'pg'
 require 'yaml'
 
