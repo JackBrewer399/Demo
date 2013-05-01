@@ -16,6 +16,7 @@ $dbconn = PG.connect(conninfo["db"]["host"],
 # Attempt creation of database
 begin
   $dbconn.exec("CREATE TABLE QUIZ_TABLE ( APP_ID text NOT NULL, QUESTION text, ANSWER text, PRIMARY KEY (APP_ID) );")
+  db_addQuestion('1','In what year was the Oscar for best picture first awarded?\nA: 1929\t\tB: 1925\nC: 1930\t\tD: 1928', 'D')
 rescue
   # Database already exists, or another error
 end
@@ -42,10 +43,10 @@ def db_getQuestion(lmsID)
   end
 end
 
-def add_rows 
-    db_addQuestion('1','In what year was the Oscar for best picture first awarded?\nA: 1929\t\tB: 1925\nC: 1930\t\tD: 1928', 'D')
+#def add_rows 
+ #   db_addQuestion('1','In what year was the Oscar for best picture first awarded?\nA: 1929\t\tB: 1925\nC: 1930\t\tD: 1928', 'D')
     
-end
+#end
 
 
 
