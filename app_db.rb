@@ -1,4 +1,3 @@
-require 'sinatra'
 require 'pg'
 require 'yaml'
 
@@ -45,4 +44,29 @@ end
 
 def add_rows 
     db_addQuestion('1','In what year was the Oscar for best picture first awarded?\nA: 1929\t\tB: 1925\nC: 1930\t\tD: 1928', 'D')
+    
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
